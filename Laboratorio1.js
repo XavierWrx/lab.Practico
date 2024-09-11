@@ -16,9 +16,9 @@ console.log(`La cantidad de los producto es: ${total_Producto}`)
 if ( Camisa_Cantidad<100 ) {
     console.log(`Es necesario reponer camisa. Cantidad actual: ${Camisa_Cantidad}`);
     return;
-  } else if (Pantalones_Cantidad < 100) {
+  } if (Pantalones_Cantidad < 100) {
      console.log(`Es necesario reponer pantalones. Cantidad actual: ${Pantalones_Cantidad}`);
-  } else if (Zapatos_Cantidad < 100) {
+  } if (Zapatos_Cantidad < 100) {
      console.log(`Es necesario reponer Zapatos. Cantidad actual: ${Zapatos_Cantidad}`);
   } else {
      console.log("No es necesario reponer ningún producto.");
